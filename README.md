@@ -81,10 +81,10 @@ On your Terraform project use this configuration on your backend block.
 ```
 terraform {
   backend "s3" {
-    bucket         = "bruno-terraform-state-bucket"
-    key            = "global/terraform.tfstate"
-    region         = "eu-central-1"
-    dynamodb_table = "bruno-terraform-state-table"
+    bucket         = "name-terraform-state-bucket"
+    key            = "name/terraform.tfstate"
+    region         = "regionaws"
+    dynamodb_table = "name-terraform-state-table"
   }
 }
 ```
